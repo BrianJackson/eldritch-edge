@@ -1,0 +1,33 @@
+new entry "SIPHONING_WARD"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "Siphoning Ward"
+data "Description" "As a reaction, deal Charisma Modifer + Level to any creature that hits you in melee combat.  If the creature is hexed, you heal for the same amount. On a successful save, the attacker takes no damage."
+data "Icon" "Spell_Abjuration_BladeWard"
+data "StatusEffect" "VFX_Status_Buff_01"
+data "SoundLoop" "Spell_Status_Buff_MO"
+data "StackId" "SIPHONING_WARD"
+data "Passives" "EldritchEdge_SiphoningWard"
+data "OnApplyFunctors" "AI_ONLY:IF(not HasStatus('SIPHONING_WARD')):ApplyStatus(AI_HELPER_BUFF,100,1)"
+
+new entry "ARANEA_POISON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "Aranea Spider Aspect"
+data "Description" "Manifest your spiderlike abilities. Carapace: Resistance to physical attacks and poison.  Spider movement: Immunity to being enwebbed and increased jump distance.  Darkvision"
+data "Icon" "Action_Spider_Giant_PoisonousBite"
+data "ApplyEffect" "VFX_Status_OilofSharpness_DymmyFX_01:Dummy_FX_01"
+data "StackId" "ARANEA_POISON"
+data "Boosts" "WeaponDamageResistance(Bludgeoning);WeaponDamageResistance(Slashing);WeaponDamageResistance(Piercing);JumpMaxDistanceMultiplier(1.5);StatusImmunity(WEB);Resistance(Poison,Resistant);DarkvisionRangeMin(24)"
+
+new entry "HEX_WEB"
+type "StatusData"
+data "StatusType" "BOOST"
+using "WEB"
+data "DisplayName" "Cursed Webbing"
+data "Description" "This cursed webbing applied by Hex also makes the target vulnerable to critical hits."
+data "StackPriority" "1"
+data "Boosts" "Advantage(AttackTarget);Disadvantage(AttackRoll);ActionResourceBlock(Movement);Disadvantage(SavingThrow,Dexterity);Attribute(Grounded);CriticalHit(AttackTarget,Success,Always,2.5);"
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="29"/>
+    <region id="Tags">
+        <node id="root">
+            <attribute id="Description" type="LSString" value="This warlock is an adept of the Eldritch Edge"/>
+            <attribute id="DisplayDescription" type="LSString" handle="Warlocks known as wielders of the Eldritch Edge use martial prowess combined with eldritch power to defeat their foes.  These remnants of the Companions who once served Helm seek to regain their glory through infernal means." version="1"/>
+            <attribute id="DisplayName" type="LSString" handle="Adept of the Eldritch Edge" version="1"/>
+            <attribute id="Icon" type="FixedString" value=""/>
+            <attribute id="Name" type="FixedString" value="WARLOCK_ELDRITCH_EDGE"/>
+            <attribute id="UUID" type="guid" value="59f065e8-eebe-4464-9506-4f0119a59c65"/>
+            <children>
+                <node id="Categories">
+                    <children>
+                        <node id="Category">
+                            <attribute id="Name" type="LSString" value="Code"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

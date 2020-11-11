@@ -105,10 +105,10 @@
                 </node>
 				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Entangling_Spray;ARANEA_POISON_STRIKE"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Entangling_Spray;ARANEA_POISON_STRIKE"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>

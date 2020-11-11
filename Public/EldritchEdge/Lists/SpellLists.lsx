@@ -27,7 +27,11 @@
                 <node id="SpellList">
                     <attribute id="Spells" type="LSString" value="Target_Darkness;Shout_DetectThoughts;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Target_Shatter;Target_Silence;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="5bedbb55-0f8c-4a4a-aa5d-58460b453bb4"/>
-                </node> 
+                </node>
+                <node id="SpellList">
+                    <attribute id="Spells" type="LSString" value="Target_EldritchWeapon_PH"/>
+                    <attribute id="UUID" type="guid" value="ecc4d627-c810-4bac-8e7d-9050a3a0961b"/>
+                </node>  
             </children>
         </node>
     </region>

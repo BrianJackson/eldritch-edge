@@ -14,13 +14,32 @@ data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit) and not FightingStyle_Gr
 data "StatsFunctors" "IF(context.HitDescription.AttackType==AttackType.MeleeWeaponAttack or context.HitDescription.AttackType==AttackType.MeleeOffHandWeaponAttack):DealDamage(max(0,CharismaModifier),Force);IF(HasPassive('Entangling_Spray', context.Source) and (context.HitDescription.AttackType==AttackType.MeleeWeaponAttack or context.HitDescription.AttackType==AttackType.MeleeOffHandWeaponAttack):DealDamage(max(0,CharismaModifier),Force);"
 data "StatsFunctorContext" "OnAttack"
 
-new entry "ARANEA_POISON_STRIKE"
+new entry "ARANEA_POISON_STRIKE_1"
+type "PassiveData"
+data "DisplayName" "Spider Venom"
+data "Description" "While Aranea Aspect is active, Eldritch Strike also deals 1d4 poison damage."
+data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('ARANEA_POISON',context.Source) and not FightingStyle_GreatWeapon(context.Source)"
+data "StatsFunctors" "IF(context.HitDescription.AttackType==AttackType.MeleeWeaponAttack or context.HitDescription.AttackType==AttackType.MeleeOffHandWeaponAttack):DealDamage(1d4,Poison);"
+data "StatsFunctorContext" "OnAttack"
+
+
+new entry "ARANEA_POISON_STRIKE_2"
 type "PassiveData"
 data "DisplayName" "Spider Venom"
 data "Description" "While Aranea Aspect is active, Eldritch Strike also deals 2d4 poison damage."
 data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('ARANEA_POISON',context.Source) and not FightingStyle_GreatWeapon(context.Source)"
-data "StatsFunctors" "IF(context.HitDescription.AttackType==AttackType.MeleeWeaponAttack or context.HitDescription.AttackType==AttackType.MeleeOffHandWeaponAttack):DealDamage(2d4,Poison);"
+data "StatsFunctors" "IF(context.HitDescription.AttackType==AttackType.MeleeWeaponAttack or context.HitDescription.AttackType==AttackType.MeleeOffHandWeaponAttack):DealDamage(1d4,Poison);"
 data "StatsFunctorContext" "OnAttack"
+
+
+new entry "ARANEA_POISON_STRIKE_3"
+type "PassiveData"
+data "DisplayName" "Spider Venom"
+data "Description" "While Aranea Aspect is active, Eldritch Strike also deals 3d4 poison damage."
+data "Conditions" "HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('ARANEA_POISON',context.Source) and not FightingStyle_GreatWeapon(context.Source)"
+data "StatsFunctors" "IF(context.HitDescription.AttackType==AttackType.MeleeWeaponAttack or context.HitDescription.AttackType==AttackType.MeleeOffHandWeaponAttack):DealDamage(1d4,Poison);"
+data "StatsFunctorContext" "OnAttack"
+
 
 new entry "PACT_OF_ZANASSU_TRAINING"
 type "PassiveData"
@@ -36,11 +55,19 @@ data "Conditions" "SpellId('Projectile_PoisonSpray') and HasDamageEffectFlag(Dam
 data "StatsFunctors" "ApplyStatus(HEX_WEB,100,2);GROUND:CreateSurface(3,3,Web)"
 data "StatsFunctorContext" "OnAttack"
 
-new entry "EE_CombatTraining"
+new entry "Spiderling_Spray"
 type "PassiveData"
-data "DisplayName" "Eldritch Edge Combat Training"
-data "Description" "Adepts of the Eldritch Edge are trained in the use of medium armor, shortswords, rapiers and scimitars."
-data "Boosts" "Proficiency(MediumArmor);Proficiency(Rapiers);Proficiency(ShortSwords);Proficiency(Scimitars);ProficiencyBonus(Skill,Athletics);"
+data "DisplayName" "Infested Webbing"
+data "Description" "Cursed webbing is now crawling with hundreds of tiny spiderlings that infest the target, biting and poisoning it and potentially spreading to other targets."
+data "Conditions" "SpellId('Projectile_PoisonSpray') and HasDamageEffectFlag(DamageFlags.Hit)"
+data "StatsFunctors" "ApplyStatus(SPIDER_INFESTATION,100,2)"
+data "StatsFunctorContext" "OnAttack"
+
+new entry "Abilities_PH"
+type "PassiveData"
+data "DisplayName" "Nine Hells - Phelegeos Abilities"
+data "Description" "Warlocks of Phelegeos practice the use of medium armor, shortswords, rapiers and scimitars."
+data "Boosts" "Proficiency(MediumArmor);Proficiency(Rapiers);Proficiency(ShortSwords);Proficiency(Scimitars);ProficiencyBonus(Skill,Arcana);"
 
 new entry "EldritchEdge_Dueling"
 type "PassiveData"
@@ -50,14 +77,21 @@ data "DescriptionParams" "RollBonus(MeleeWeaponAttack, CharismaModifier);Charact
 data "Boosts" "RollBonus(MeleeWeaponAttack, CharismaModifier);CharacterWeaponDamage(CharismaModifier);"
 data "BoostContext" "OnEquip"
 
-new entry "EldritchEdge_SiphoningWard"
+new entry "Fiery_WardPH"
 type "PassiveData"
-data "DisplayName" "Siphoning Flames"
-data "Description" "As a reaction, deal Charisma Modifer + Level to any creature that hits you in melee combat.  If the creature is hexed, you heal for the same amount. On a successful save, the attacker takes no damage."
-data "DescriptionParams" "DealDamage(CharismaModifier+Level, fire);RegainHitPoints(CharismaModifier+Level)"
-data "Conditions" "IsMeleeAttack() and HasActionResource('ReactionActionPoint', 1, 0, false, context.Source) and HasDamageEffectFlag(DamageFlags.Hit)"
-data "StatsFunctors" "UseActionResource(SELF, ReactionActionPoint,1);IF(not SavingThrow:(Ability.Dexterity, SourceSpellDC())):(DealDamage(CharismaModifier+Level, Necrotic);IF(HasStatus('PASSIVE_HEX',context.Target)):RegainHitPoints(CharismaModifier+Level));"
+data "DisplayName" "Fiery Ward"
+data "Description" "While you are burning, as a reaction, deal Charisma Modifer to any creature that hits you in melee combat.  If the creature is hexed, you heal for the same amount. On a successful save, the attacker takes no damage."
+data "DescriptionParams" "DealDamage(CharismaModifier, fire);RegainHitPoints(CharismaModifier)"
+data "Conditions" "IsMeleeAttack() and HasActionResource('ReactionActionPoint', 1, 0, false, context.Source) and HasDamageEffectFlag(DamageFlags.Hit) and HasStatus('BURNING',context.Source) and FightingStyle_Dueling(context.Source)"
+data "StatsFunctors" "UseActionResource(SELF, ReactionActionPoint,1);IF(not SavingThrow:(Ability.Dexterity, SourceSpellDC())):((DealDamage(CharismaModifier+Level, Necrotic);IF(HasStatus('PASSIVE_HEX',context.Target)):RegainHitPoints(CharismaModifier+Level)));"
 data "StatsFunctorContext" "OnAttacked"
 
 
-
+new entry "Obscuring_FlamePH"
+type "PassiveData"
+data "DisplayName" "Obscuring Flames"
+data "Description" "While you are burning, flames and smoke partially obscure you, raising your AC by 1."
+data "DescriptionParams" "DealDamage(CharismaModifier+Level, fire);RegainHitPoints(CharismaModifier+Level)"
+data "Conditions" "FightingStyle_Dueling(context.Source);HasStatus('BURNING',context.Source)"
+data "StatsFunctors" "AC(1)"
+data "StatsFunctorContext" "OnAttacked"

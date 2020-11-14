@@ -33,10 +33,10 @@
                 </node>
 				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Boosts" type="LSString" value="Resistance(Fire, Resistant)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="EldritchEdge"/>
-                    <attribute id="PassivesAdded" type="LSString" value="EE_CombatTraining"/>
+                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Fiery_WardPH;Obscuring_FlamePH"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(58f47339-ae18-45cf-b64a-feb2c6e9b026,,,,AlwaysPrepared);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -47,7 +47,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="2"/>
-                    <attribute id="Name" type="LSString" value="EldritchEdge"/>
+                    <attribute id="Name" type="LSString" value="Phelegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -59,7 +59,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="EldritchEdge"/>
+                    <attribute id="Name" type="LSString" value="Phelegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -71,7 +71,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="EldritchEdge"/>
+                    <attribute id="Name" type="LSString" value="Phelegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -84,7 +84,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_ELDRITCH_STRIKE;PACT_OF_ZANASSU_TRAINING"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_ELDRITCH_STRIKE;PACT_OF_ZANASSU_TRAINING;"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(86cdd326-978a-4cf2-95e9-c5a3c5e936f7,,,,AlwaysPrepared);SelectSpells(3a7522d8-f1d0-4b05-b49a-8e1b1bd8fa5b,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -96,7 +96,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_AGONIZING_STRIKE"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(3a7522d8-f1d0-4b05-b49a-8e1b1bd8fa5b,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -108,7 +108,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Entangling_Spray;ARANEA_POISON_STRIKE"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Entangling_Spray;"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -120,12 +120,36 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
                     <attribute id="UUID" type="guid" value="4886e1b0-96a5-4f91-beee-ee81d366a2b7"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="Zanassu"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_AGONIZING_STRIKE"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="822e861a-9a26-4402-8d70-baaa97022b99"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="AllowImprovement" type="bool" value="false"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="Zanassu"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_2;Spiderling_Spray"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+                    <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
+                    <attribute id="UUID" type="guid" value="fc9ef654-1171-48b8-bcbf-18f97e12f2ad"/>
                 </node>
             </children>
         </node>

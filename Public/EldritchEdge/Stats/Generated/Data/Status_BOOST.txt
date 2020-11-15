@@ -18,6 +18,7 @@ data "Description" "Manifest your spiderlike abilities. Evasion: Mitigate damage
 data "Icon" "Action_Spider_Giant_PoisonousBite"
 data "ApplyEffect" "VFX_Status_OilofSharpness_DymmyFX_01:Dummy_FX_01"
 data "StackId" "ARANEA_POISON"
+data "Passives" "SpiderWalk"
 data "StackPriority" "1"
 data "Boosts" "WeaponDamageResistance(Bludgeoning);WeaponDamageResistance(Slashing);WeaponDamageResistance(Piercing);JumpMaxDistanceMultiplier(1.5);Resistance(Poison,Resistant);DarkvisionRangeMin(18)"
 
@@ -29,6 +30,7 @@ data "Description" "Manifest your spiderlike abilities. Resistance to poison. Sp
 data "Icon" "Action_Spider_Giant_PoisonousBite"
 data "ApplyEffect" "VFX_Status_OilofSharpness_DymmyFX_01:Dummy_FX_01"
 data "StackId" "ARANEA_POISON"
+data "Passives" "SpiderWalk"
 data "StackPriority" "0"
 data "Boosts" "JumpMaxDistanceMultiplier(1.5);Resistance(Poison,Resistant);DarkvisionRangeMin(18)"
 

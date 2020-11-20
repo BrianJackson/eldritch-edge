@@ -30,32 +30,6 @@
                     <attribute id="Type" type="FixedString" value=""/>
                     <attribute id="UUID" type="guid" value="0de81d50-a607-498d-bbf8-81249bbae60c"/>
                 </node>
-                <node id="ProgressionDescription">
-                    <attribute id="Description" type="LSString" value="Eldritch power enhances the accuracy of your weapon"/>
-                    <attribute id="DisplayName" type="LSString" value="Imbue Weapon"/>
-                    <attribute id="ExactMatch" type="FixedString" value=""/>
-                    <attribute id="Hidden" type="bool" value="false"/>
-                    <attribute id="ParamMatch" type="FixedString" value=""/>
-                    <attribute id="PassivePrototype" type="FixedString" value="EE_FinesseWeaponMaster_BonusAttack"/>
-                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                    <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                    <attribute id="SelectorId" type="FixedString" value=""/>
-                    <attribute id="Type" type="FixedString" value="RollBonus"/>
-                    <attribute id="UUID" type="guid" value="9fe9f721-ee34-4d48-b3c9-2a20fb38b9d6"/>
-                </node>
-                <node id="ProgressionDescription">
-                    <attribute id="Description" type="LSString" value="Eldritch power enhances the damage of your weapon"/>
-                    <attribute id="DisplayName" type="LSString" value="Imbue Weapon Power"/>
-                    <attribute id="ExactMatch" type="FixedString" value=""/>
-                    <attribute id="Hidden" type="bool" value="false"/>
-                    <attribute id="ParamMatch" type="FixedString" value=""/>
-                    <attribute id="PassivePrototype" type="FixedString" value="EE_FinesseWeaponMaster_BonusDamage"/>
-                    <attribute id="ProgressionId" type="guid" value="4e95aae1-ad36-4441-8d0c-43f891271f29"/>
-                    <attribute id="ProgressionTableId" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
-                    <attribute id="SelectorId" type="FixedString" value=""/>
-                    <attribute id="Type" type="FixedString" value="CharacterWeaponDamage"/>
-                    <attribute id="UUID" type="guid" value="880bd2b3-f35c-4d56-834b-dea5f8a1fb1c"/>
-                </node>
             </children>
         </node>
     </region>

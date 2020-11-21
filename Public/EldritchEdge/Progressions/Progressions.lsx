@@ -36,10 +36,10 @@
                 </node>
 				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="Resistance(Fire, Resistant)"/>
+                    <attribute id="Boosts" type="LSString" value="FIRE_RESISTANCE_PH"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Phelegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Obscuring_FlamePH;Fire_SupremecyPH;Osyluths_Backdraft;Osyluths_BlastWave;FieryRegeneration"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Obscuring_FlamePH;Hellfire_ShapingPH;Osyluths_Backdraft;Osyluths_BlastWave;FieryRegeneration"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(b19351e6-bef1-438b-8e1f-978be5bc205e,,,,AlwaysPrepared);AddSpells(58f47339-ae18-45cf-b64a-feb2c6e9b026,,,,AlwaysPrepared);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>

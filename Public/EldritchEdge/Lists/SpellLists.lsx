@@ -5,11 +5,11 @@
         <node id="root">
             <children>
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Shout_HandOfFierna;Shout_HandOfBelial"/>
+                    <attribute id="Spells" type="LSString" value="Target_NetherWalk"/>
                     <attribute id="UUID" type="guid" value="b19351e6-bef1-438b-8e1f-978be5bc205e"/>
                 </node>  
                 <node id="SpellList">
-                    <attribute id="Spells" type="LSString" value="Zone_Hand_Of_Osyluths"/>
+                    <attribute id="Spells" type="LSString" value="Zone_Hand_Of_Fierna"/>
                     <attribute id="UUID" type="guid" value="58f47339-ae18-45cf-b64a-feb2c6e9b026"/>
                 </node>  
                 <node id="SpellList">

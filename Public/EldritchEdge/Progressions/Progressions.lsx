@@ -36,13 +36,13 @@
                 </node>
 				<node id="Progression">
                     <attribute id="AllowImprovement" type="bool" value="false"/>
-                    <attribute id="Boosts" type="LSString" value="FIRE_RESISTANCE_PH"/>
+                    <attribute id="Boosts" type="LSString" value="Resistance(Fire, Resistant)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Phelegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Obscuring_FlamePH;Hellfire_ShapingPH;Osyluths_Backdraft;Osyluths_BlastWave;FieryRegeneration"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Fierna_Backdraft;"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(b19351e6-bef1-438b-8e1f-978be5bc205e,,,,AlwaysPrepared);AddSpells(58f47339-ae18-45cf-b64a-feb2c6e9b026,,,,AlwaysPrepared);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(58f47339-ae18-45cf-b64a-feb2c6e9b026,,,,AlwaysPrepared);SelectSpells(4823a292-f584-4f7f-8434-6630c72e5411,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
                     <attribute id="UUID" type="guid" value="4e95aae1-ad36-4441-8d0c-43f891271f29"/>
                 </node>
@@ -63,7 +63,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Phelegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Obscuring_FlamePH"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -75,7 +75,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="4"/>
                     <attribute id="Name" type="LSString" value="Phelegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Belial_Agonizing"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -90,7 +90,7 @@
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(b19351e6-bef1-438b-8e1f-978be5bc205e,,,,AlwaysPrepared);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
                     <attribute id="UUID" type="guid" value="f258e307-bc20-4b27-bc3b-a70a109de535"/>
                 </node>
@@ -99,8 +99,8 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Phelegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="Fierna_BlastWave"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="Fierna_Backdraft"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>

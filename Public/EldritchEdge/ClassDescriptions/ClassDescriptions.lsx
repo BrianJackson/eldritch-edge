@@ -9,8 +9,8 @@
                     <attribute id="CanLearnSpells" type="bool" value="false"/>
                     <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="ClassEquipment" type="FixedString" value=""/>
-                    <attribute id="Description" type="FixedString" value="Warlocks who draw power from Phelegethos, the 4th layer of the Nine Hells immolate themselves to draw power from the Pit of Flame itself. The pain they experience is a path to power, allowing them to draw strength and lifeforce from others who are burning in the hellish flames."/>
-                    <attribute id="DisplayName" type="FixedString" value="Phelegethos"/>
+                    <attribute id="Description" type="FixedString" value="Warlocks who draw power from Phlegethos, the 4th layer of the Nine Hells immolate themselves to draw power from the Pit of Flame itself. The pain they experience is a path to power, allowing them to draw strength and lifeforce from others who are burning in the hellish flames."/>
+                    <attribute id="DisplayName" type="FixedString" value="Phlegethos"/>
                     <attribute id="HasGod" type="bool" value="false"/>
                     <attribute id="HpPerLevel" type="int32" value="0"/>
                     <attribute id="LearningStrategy" type="uint8" value="2"/>

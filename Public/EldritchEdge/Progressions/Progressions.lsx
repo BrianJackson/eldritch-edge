@@ -38,7 +38,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value="Resistance(Fire, Resistant)"/>
                     <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="Name" type="LSString" value="Phlegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value="Abilities_PH;Fierna_Backdraft;"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -50,7 +50,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="2"/>
-                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="Name" type="LSString" value="Phlegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -62,7 +62,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="3"/>
-                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="Name" type="LSString" value="Phlegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value="Obscuring_FlamePH"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -74,7 +74,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="4"/>
-                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="Name" type="LSString" value="Phlegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value="Belial_Agonizing"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -86,7 +86,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="5"/>
-                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="Name" type="LSString" value="Phlegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
@@ -98,7 +98,7 @@
                     <attribute id="AllowImprovement" type="bool" value="false"/>
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
-                    <attribute id="Name" type="LSString" value="Phelegethos"/>
+                    <attribute id="Name" type="LSString" value="Phlegethos"/>
                     <attribute id="PassivesAdded" type="LSString" value="Fierna_BlastWave"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Fierna_Backdraft"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>

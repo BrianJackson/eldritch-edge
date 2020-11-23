@@ -18,7 +18,7 @@
                     <attribute id="UUID" type="guid" value="f87e5fde-3c7f-4762-a5a8-7f5807554583"/>
                 </node>
                 <node id="ProgressionDescription">
-                    <attribute id="Description" type="FixedString" value="Warlocks attuned to the firey 4th layer of the Nine Hells, Phelegethos are fire resistant."/>
+                    <attribute id="Description" type="FixedString" value="Warlocks attuned to the firey 4th layer of the Nine Hells, Phlegethos are fire resistant."/>
                     <attribute id="DisplayName" type="FixedString" value="Fire Resistance"/>
                     <attribute id="ExactMatch" type="FixedString" value="Resistance(Fire, Resistant)"/>
                     <attribute id="Hidden" type="bool" value="true"/>

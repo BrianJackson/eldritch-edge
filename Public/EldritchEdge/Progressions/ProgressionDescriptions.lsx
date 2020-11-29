@@ -33,11 +33,11 @@
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="FixedString" value="Webs are no longer considered difficult terrain and do not hinder your movement."/>
                     <attribute id="DisplayName" type="FixedString" value="Web Walker"/>
-                    <attribute id="ExactMatch" type="FixedString" value=""/>
+                    <attribute id="ExactMatch" type="FixedString" value="Zanassu_Web_Passive"/>
                     <attribute id="Hidden" type="bool" value="false"/>
                     <attribute id="ParamMatch" type="FixedString" value=""/>
-                    <attribute id="PassivePrototype" type="FixedString" value="Zanassu_Web_Passive"/>
-                    <attribute id="ProgressionId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PassivePrototype" type="FixedString" value=""/>
+                    <attribute id="ProgressionId" type="guid" value="212e59bd-14f1-423a-8c73-6e053c72d3d7"/>
                     <attribute id="ProgressionTableId" type="guid" value="00000000-0000-0000-0000-000000000000"/>
                     <attribute id="SelectorId" type="FixedString" value=""/>
                     <attribute id="Type" type="FixedString" value="StatusImmunity"/>

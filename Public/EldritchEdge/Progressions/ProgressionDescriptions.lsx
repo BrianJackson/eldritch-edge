@@ -34,7 +34,7 @@
                     <attribute id="Description" type="FixedString" value="Webs are no longer considered difficult terrain and do not hinder your movement."/>
                     <attribute id="DisplayName" type="FixedString" value="Web Walker"/>
                     <attribute id="ExactMatch" type="FixedString" value="StatusImmunity(DIFFICULT_TERRAIN)"/>
-                    <attribute id="Hidden" type="bool" value="false"/>
+                    <attribute id="Hidden" type="bool" value="true"/>
                     <attribute id="ParamMatch" type="FixedString" value=""/>
                     <attribute id="PassivePrototype" type="FixedString" value=""/>
                     <attribute id="ProgressionId" type="guid" value="212e59bd-14f1-423a-8c73-6e053c72d3d7"/>

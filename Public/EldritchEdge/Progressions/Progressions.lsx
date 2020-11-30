@@ -99,7 +99,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Phlegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Fierna_BlastWave"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sadistic_Pleasure_PH"/>
                     <attribute id="PassivesRemoved" type="LSString" value="Fierna_Backdraft"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -123,7 +123,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Phlegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Harbinger_Of_Belial_PH"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Fierna_BlastWave"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -147,7 +147,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Phlegethos"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sadistic_Pleasure_PH"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Harbinger_Of_Belial_PH"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -207,7 +207,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_AGONIZING_STRIKE"/>
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
@@ -219,8 +219,8 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_2;"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_AGONIZING_STRIKE"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
@@ -243,8 +243,8 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Spiderling_Spray"/>
-                    <attribute id="PassivesRemoved" type="LSString" value=""/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_3"/>
+                    <attribute id="PassivesRemoved" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>
@@ -267,8 +267,8 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_3"/>
-                    <attribute id="PassivesRemoved" type="LSString" value="ARANEA_POISON_STRIKE_2"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Spiderling_Spray"/>
+                    <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,1,0);SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="5c2a60c1-9254-4f33-b5ae-9e3d7563b235"/>

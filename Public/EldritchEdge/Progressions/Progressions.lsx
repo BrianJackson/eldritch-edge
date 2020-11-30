@@ -243,7 +243,7 @@
                     <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="Zanassu"/>
-                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_3"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ARANEA_POISON_STRIKE_2"/>
                     <attribute id="PassivesRemoved" type="LSString" value="ARANEA_POISON_STRIKE_1"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(5bedbb55-0f8c-4a4a-aa5d-58460b453bb4,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>

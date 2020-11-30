@@ -26,12 +26,6 @@ new entry "DIPPED_POISON_EE_2"
 type "StatusData"
 data "StatusType" "BOOST"
 using "DIPPED_POISON"
-data "Boosts" "WeaponDamage(1d6, Poison)"
-
-new entry "DIPPED_POISON_EE_3"
-type "StatusData"
-data "StatusType" "BOOST"
-using "DIPPED_POISON"
 data "Boosts" "WeaponDamage(2d4, Poison)"
 
 new entry "HEX_WEB"

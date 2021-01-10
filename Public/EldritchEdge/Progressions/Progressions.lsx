@@ -66,7 +66,7 @@
                     <attribute id="PassivesAdded" type="LSString" value="Obscuring_FlamePH"/>
                     <attribute id="PassivesRemoved" type="LSString" value=""/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(835aeca7-c64a-4aaa-a25c-143aa14a5cec,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(acb921b1-391c-4985-9409-c7a446a35d9f,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="dd723c8a-bb59-42fe-8c39-d4ec26fc1899"/>
                     <attribute id="UUID" type="guid" value="25091e18-8995-4617-8b89-aa506f287a4e"/>
                 </node>
